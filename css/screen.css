@@ -1,0 +1,39 @@
+@import url( /nav/css/screen.css );
+
+body {
+  margin:                 0 0 0 120px;
+  font-family:            'Georgia',
+                          'Times',
+                          serif;
+}
+#govian.hover {
+  box-shadow:             none;
+}
+#content {
+  width:                  700px;
+}
+h1 {
+  margin:                 0 0 1em 0;
+  font-size:              32px;
+  font-weight:            normal;
+}
+
+ol.slideshow {
+  position:               relative;
+  list-style:             none;
+  margin:                 0;
+  padding:                0;
+  height:                 350px;
+}
+ol.slideshow li {
+  display:                none;
+  position:               absolute;
+  top:                    0;
+  left:                   0;
+}
+ol.slideshow li:first-of-type {
+  display:                block;
+}
+ol.slideshow.enhanced li:first-of-type {
+  display:                none;
+}
