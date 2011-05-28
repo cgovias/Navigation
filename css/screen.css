@@ -26,6 +26,7 @@
   color:                #666;
   text-decoration:      none;
 }
+#govian .selected a,
 #govian a:hover,
 #govian a:focus {
   color:                #000;
@@ -53,6 +54,7 @@
 #govian.photo a {
   color:                #aaa;
 }
+#govian.photo .selected a,
 #govian.photo a:hover {
   color:                #fff;
 }
