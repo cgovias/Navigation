@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+    <title>Govias</title>
+    <style>
+    body {
+      background:           #eee;
+    }
+    #govian {
+      position:             absolute;
+      top:                  0;
+      left:                 20px;
+      width:                84px;
+      height:               auto;
+      overflow:             hidden;
+      font-size:            13px;
+      line-height:          16px;
+      font-family:          'Lucida Sans',
+                            'Lucida Grande',
+                            'Verdana',
+                            'Arial',
+                            'Helvetica',
+                            sans-serif;
+      -webkit-transition:   all 1s;
+      -moz-transition:      all 1s;
+      border-radius:        0 0 5px 5px;
+    }
+    #govian ul {
+      position:             relative;
+      left:                 84px;
+      width:                116px; /* 190 - 84 */
+      margin:               0;
+      padding:              0 0 10px 0;
+      list-style:           none;
+    }
+    #govian a img {
+      border:               none;
+    }
+    #govian li.logo {
+      position:             absolute;
+      width:                64px;
+      height:               64px;
+      top:                  0;
+      left:                 -74px;
+      padding:              0;
+    }
+    #govian li {
+      padding:              5px 5px 0 5px;
+    }
+
+    #govian.hover,
+    #govian:hover {
+      background:           #fff;
+      width:                190px;
+      -webkit-box-shadow:   rgba(0,0,0,0.5) 0 0 5px;
+      -moz-box-shadow:      rgba(0,0,0,0.5) 0 0 5px;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div id='govian'>
+      <ul>
+        <li class='logo'>
+          <a href='http://chrisgovias.com/'>
+            <img src='http://chrisgovias.com/images/cg_logo.png' alt='Home' width='64' height='64' />
+          </a>
+        </li>
+        <li><a href='#'>Work</a></li>
+        <li><a href='#'>Photography</a></li>
+        <li><a href='#'>Sketchbook</a></li>
+      </ul>
+    </div>
+
+    <script>
+    (function() {
+      var g = document.getElementById('govian');
+      g.onmouseenter = function(){ this.className = 'hover'; };
+      g.onmouseleave = function(){ this.className = ''; };
+    }());
+    </script>
+  </body>
+
+</html>
