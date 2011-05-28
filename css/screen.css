@@ -1,0 +1,58 @@
+#govian {
+  position:             absolute;
+  top:                  0;
+  left:                 20px;
+  width:                80px;
+  height:               100px;
+  overflow:             hidden;
+  font-size:            10px;
+  letter-spacing:       0.25em;
+  line-height:          16px;
+  -webkit-transition:   all 0.5s;
+  -moz-transition:      all 0.5s;
+  font-family:          'Georgia',
+                        'Times',
+                        serif;
+  border-radius:        0 0 5px 5px;
+  text-transform:       uppercase;
+}
+#govian ul {
+  margin:               0;
+  padding:              0;
+  list-style:           none;
+}
+#govian a {
+  display:              block;
+  color:                #666;
+  text-decoration:      none;
+}
+#govian a:hover,
+#govian a:focus {
+  color:                #000;
+  text-decoration:      underline;
+}
+#govian a img {
+  border:               none;
+}
+#govian li {
+  padding:              0;
+  margin:               5px 10px;
+}
+
+#govian.hover,
+#govian:hover {
+  background:           #fff;
+  height:               215px;
+  -webkit-box-shadow:   rgba(0,0,0,0.5) 0 0 5px;
+  -moz-box-shadow:      rgba(0,0,0,0.5) 0 0 5px;
+}
+
+#govian.photo {
+  background:           #505050;
+}
+#govian.photo a {
+  color:                #aaa;
+}
+#govian.photo a:hover {
+  color:                #fff;
+}
