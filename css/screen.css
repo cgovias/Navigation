@@ -37,3 +37,6 @@ ol.slideshow li:first-of-type {
 ol.slideshow.enhanced li:first-of-type {
   display:                none;
 }
+a img {
+  border:                 none;
+}
